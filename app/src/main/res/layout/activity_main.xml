@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#F8F8F8"
+    android:scrollbarThumbHorizontal="@drawable/ic_launcher_foreground"
+    android:textAlignment="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/lBlid"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="-2dp"
+        android:text="PRACTICA 1 ANDROID"
+        android:textAlignment="center"
+        android:textColor="#FCFDFD"
+        android:textColorHint="#EAE7E7"
+        android:textColorLink="#D32F2F"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lbltele"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="355dp"
+        android:text="TELEFONO :"
+        android:textAlignment="center"
+        android:textColor="#FFFEFE"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/LBLnombre"
+        android:layout_width="102dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="88dp"
+        android:text="NOMBRES :"
+        android:textAlignment="center"
+        android:textColor="#FDFCFC"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/lblfecha"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="143dp"
+        android:text="FECHA NACIMIENTO :"
+        android:textAlignment="center"
+        android:textColor="#FDFCFC"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/lblgenero"
+        android:layout_width="72dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="246dp"
+        android:text="GÉNERO :"
+        android:textAlignment="center"
+        android:textColor="#FBFBFB"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/lblciudad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="195dp"
+        android:text="CIUDAD :"
+        android:textAlignment="center"
+        android:textColor="#FBFAFA"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/lblid"
+        android:layout_width="102dp"
+        android:layout_height="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="276dp"
+        android:text="NUMERO ID : "
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="34dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="42dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="37dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="dd/mm/aa" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="184dp"
+        android:layout_marginEnd="15dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Provincia " />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="203dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="234dp"
+        android:layout_marginEnd="21dp"
+        android:text="Masculino " />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="211dp"
+        android:layout_height="21dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="262dp"
+        android:layout_marginEnd="14dp"
+        android:text="Femenino" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="163dp"
+        android:layout_height="27dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="223dp"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="278dp"
+        android:text="CORREO ELECTRONICO : "
+        android:textAlignment="center"
+        android:textColor="#FDFCFC"
+        android:textColorHint="#FFFFFF"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="269dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="   Email" />
+
+    <Button
+        android:id="@+id/btnenviar"
+        android:layout_width="155dp"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="125dp"
+        android:layout_marginBottom="96dp"
+        android:text="ENVIAR"
+        android:textSize="20sp" />
+
+</RelativeLayout>
